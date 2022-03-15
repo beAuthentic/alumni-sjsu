@@ -79,7 +79,6 @@ tr:nth-child(odd) {
 
 code {
   white-space: pre-wrap;
-  color: brown;
 }
 
 pre {
@@ -106,4 +105,18 @@ blockquote {
   align-items: center;
   text-align: center;
   min-height: calc(100vh - 0em);
+}
+
+.button {
+  color: navy!important;
+  text-decoration: none;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
