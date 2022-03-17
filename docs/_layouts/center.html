@@ -5,9 +5,12 @@
     <link href="{{ 'assets/css/style.css' |  relative_url }}" rel="stylesheet">
   </head>
   <body>
-    <div class="center-box-container">
-      {{ content }}
-    </div>
+    <section clas="main">
+      <div class="center-box-container">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </section>
   </body>
 </html>
 
